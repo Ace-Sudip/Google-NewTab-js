@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.input-container-box {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.input-design {
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 300px;
+  background-color: transparent;
+  font-size: 36px;
+  text-align: center;
+}
+
+.input-design:focus {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.clock {
+  font-size: 120px;
+}
